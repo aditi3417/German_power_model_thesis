@@ -1,0 +1,15 @@
+# Python virtual environment
+bin/
+lib/
+include/
+share/
+etc/
+pyvenv.cfg
+__pycache__/
+
+# Data files (too large for GitHub)
+data/
+delete_later/
+
+# macOS
+.DS_Store
