@@ -1,4 +1,4 @@
-# German Power Plant Outage Model
+# Unplanned outage modeling 
 
 ## Description
 
