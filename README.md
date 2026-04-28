@@ -18,7 +18,7 @@ This work is inspired by the paper *"Seasonal and Weather Influences in the Outa
 ├── notebooks/
 │   ├── raw_data_outages.ipynb          # Raw outage data inspection
 │   ├── eda.ipynb                       # Exploratory data analysis
-│   ├── features_v2.ipynb               # Feature engineering pipeline
+│   ├── features.ipynb               # Feature engineering pipeline
 │   ├── logistic_regression_final.ipynb # LR model training and evaluation
 │   ├── lightgbm_final.ipynb            # LightGBM training, SHAP analysis
 │   ├── lstm_final.ipynb                # LSTM training and saliency analysis
@@ -49,9 +49,9 @@ Run the notebooks in the following order to reproduce all results end-to-end:
 |------|----------|-------------|
 | 1 | `raw_data_outages.ipynb` | Inspect and validate raw outage data |
 | 2 | `eda.ipynb` | Exploratory data analysis |
-| 3 | `features_v2.ipynb` | Feature engineering (produces the modelling dataset) |
+| 3 | `features.ipynb` | Feature engineering (produces the modelling dataset) |
 | 4 | `logistic_regression_final.ipynb` | Logistic regression baseline |
 | 5 | `lightgbm_final.ipynb` | LightGBM training and SHAP analysis |
-| 6 | `lstm_final.ipynb` | LSTM training and saliency analysis (~30–60 min on CPU) |
+| 6 | `lstm_final.ipynb` | LSTM training and saliency analysis |
 | 7 | `prediction_plots.ipynb` | Unit-level probability time series plots |
 
