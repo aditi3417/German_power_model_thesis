@@ -7,9 +7,15 @@ etc/
 pyvenv.cfg
 __pycache__/
 
-# Data files (too large for GitHub)
+# Data files and trained models (regenerate by running notebooks)
 data/
+models/
 delete_later/
+
+# Claude Code
+.claude/
+CLAUDE.md
 
 # macOS
 .DS_Store
+**/.DS_Store
